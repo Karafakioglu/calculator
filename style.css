@@ -1,20 +1,24 @@
 body{
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 100px;
 }
 .calculator-container{
     border: 1px solid black;
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 300px;
-    height: 500px;
+    width: 250px;
+    height: 300px;
 }
 
 .calculator-screen{
-    width: 250px;
-    height: 100px;
+    width: 200px;
+    height: 50px;
     border: 1px solid black;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .calculator-body{
@@ -34,7 +38,7 @@ body{
 .meta-buttons{
     display: flex;
     gap: 3px 3px;
-    padding: 15px 2.5px 2.5px 2.5px;
+    padding: 2.5px;
 }
 
 .meta-buttons #clear-btn{
