@@ -13,12 +13,20 @@ function operate(operator, firstNum, secondNum){
     }
 }
 
-function clearDisplay(){
-    const clearBtn = document.getElementById("clear-btn")
-    const display = document.getElementById("display")
-    clearBtn.addEventListener("click", ()=>{
-        display.innerText = "";
-    })
+
+function main(){
+
+
+    function clearDisplay(){
+        const clearBtn = document.getElementById("clear-btn")
+        const display = document.getElementById("display")
+        clearBtn.addEventListener("click", ()=>{
+            display.innerText = "";
+            displayValue = "";
+        })
+    }
+
+    clearDisplay();
 }
 
-clearDisplay();
+main();
