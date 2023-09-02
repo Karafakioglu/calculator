@@ -26,3 +26,15 @@ body{
     width: 3rem;
     height: 2rem;
 }
+
+.meta-buttons{
+display: flex;
+}
+
+#clear-btn{
+    width: 50%;
+}
+
+#delete-btn{
+    width: 50%;
+}
