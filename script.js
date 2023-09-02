@@ -12,3 +12,13 @@ function operate(operator, firstNum, secondNum){
         return firstNum/secondNum;
     }
 }
+
+function clearDisplay(){
+    const clearBtn = document.getElementById("clear-btn")
+    const display = document.getElementById("display")
+    clearBtn.addEventListener("click", ()=>{
+        display.innerText = "";
+    })
+}
+
+clearDisplay();
