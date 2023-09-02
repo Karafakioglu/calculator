@@ -2,7 +2,7 @@ body{
     display: flex;
     justify-content: center;
 }
-.calculator-body{
+.calculator-container{
     border: 1px solid black;
     display: flex;
     align-items: center;
@@ -17,17 +17,18 @@ body{
     border: 1px solid black;
 }
 
-.calculator-buttons-body{
+.calculator-body{
     display: flex;
     flex-direction: column;
     
 }
 
-.calculator-buttons-body button{
+.calculator-body button{
     width: 3rem;
     height: 2rem;
     border-radius: 5px;
     background-color: rgba(167, 210, 210, 0.225);
+    flex-grow: 1;
 }
 
 .meta-buttons{
@@ -49,6 +50,7 @@ body{
     gap: 3px 3px;
     padding: 2.5px;
 }
+
 
 .second-row{
     display: flex;
