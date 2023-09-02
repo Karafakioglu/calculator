@@ -2,6 +2,11 @@ const calculatorBody = document.querySelector(".calculator-body");
 const calculatorButtons = calculatorBody.querySelectorAll("button");
 let displayValue = "";
 
+// document.getElementById("delete-btn").addEventListener("click", () =>{
+//     console.log(displayValue);
+// })
+
+
 function displayNumbers(){
     calculatorButtons.forEach(button =>{
         button.addEventListener("click", () =>{
