@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.calculator-body{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+}
+
+.calculator-screen{
+    width: 250px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.calculator-buttons-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.calculator-buttons-body button{
+    width: 3rem;
+    height: 2rem;
+}
